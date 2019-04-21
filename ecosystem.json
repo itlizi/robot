@@ -14,7 +14,7 @@
   "deploy": {
     "production": {
       "user": "kailu",
-      "host": ["http://120.78.194.250"],
+      "host": ["120.78.194.250"],
       "port": "80",
       "ref": "origin/master",
       "repo": "git@github.com:itlizi/robot.git",
