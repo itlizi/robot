@@ -13,12 +13,11 @@
   ],
   "deploy": {
     "production": {
-      "user": "kailu",
+      "user": "root",
       "host": ["120.78.194.250"],
-      "port": "80",
       "ref": "origin/master",
       "repo": "git@github.com:itlizi/robot.git",
-      "path": "/www/robot",
+      "path": "/www/robot/production",
       "ssh_options": "StrictHostKeyChecking=no",
       "post-deploy": "npm install && pm2 startOrRestart ecosystem.json --env production",
       "env": {
